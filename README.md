@@ -10,8 +10,8 @@ Some LaTeX styles don't ensure that the capitalization of the references' titles
 
 ## Usage
 
-Input: (path +) your bib file. 
-Output: (path +) name of the new bib file to be made (can use same name to over-write).
+- Input: (path +) your bib file. 
+- Output: (path +) name of the new bib file to be made (can use same name to over-write).
 
 `python bib_fix.py [input bib file] [output bib file]`
 
