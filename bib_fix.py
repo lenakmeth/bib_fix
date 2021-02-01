@@ -48,7 +48,7 @@ for l in lines:
                 temp += char
 
         temp = (
-            "{" + temp[1:-1].replace("}{", "").replace("{{", "").replace("}}", "") + "}"
+            "{" + temp[1:-1].replace("}{", "").replace("{{", "").replace("}}", "") + "},"
         )
 
         # replace " " with latex syntax
